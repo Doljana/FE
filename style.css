@@ -1,9 +1,20 @@
 .p1{
-    color: red;
-    background-color: pink;
-    width: 300px;
-    height: 250px;
+      background-color: #34495e;
+      border-radius: 20px;
+      padding: 10px;
 }
-.h1{
-    text-decoration: underline;
+.p2{
+
+background-color: #34495e;
+      border-radius: 20px;
+      padding: 10px;
+}
+.p3{
+    background-color: #34495e;
+      border-radius: 20px;
+      padding: 10px;
+}
+.d1{
+    background-color: beige;
+    height: 250px;
 }
