@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Управление карточками</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Форма удаления записей -->
+        <form id="deleteForm">
+            <label for="deleteId">ID карточки для удаления:</label>
+            <input type="number" id="deleteId" name="deleteId" required>
+            <button type="submit">Удалить</button>
+        </form>
+
+        <!-- Форма изменения данных в карточках -->
+        <form id="updateForm">
+            <label for="updateId">ID карточки:</label>
+            <input type="number" id="updateId" name="updateId" required>
+            <label for="newTitle">Новое название:</label>
+            <input type="text" id="newTitle" name="newTitle" required>
+            <button type="submit">Изменить</button>
+        </form>
+
+        <!-- Контейнер для отображения карточек (результатов) -->
+        <div id="cardContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
